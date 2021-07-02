@@ -9,7 +9,7 @@
     </head>
     <body>
         <section class="reg_form">
-            <form class="form" action="/">
+            <form class="form" action="/" method="GET">
 
                 <h2 class="title">Register</h2>
 
@@ -17,22 +17,29 @@
                     minute.</span>
 
                 <label>
-                    <input id="name" required type="text" placeholder="First Name"/>
+                    <input id="name" name="Fname" required autofocus value="" type="text" placeholder="First Name"/>
                 </label>
                 <label>
-                    <input id="name" required type="text" placeholder="Last Name"/>
+                    <input id="name" name="Lname"  required type="text" placeholder="Last Name"/>
                 </label>
                 <label>
-                    <input id="logs" required type="email" placeholder="Email"/>
+                    <input 
+                    id="logs" 
+                    name="Email" 
+                    required 
+                    type="email" 
+                    placeholder="Email"
+                    attern="^([A-Za-z0-9_\.]|[@]){3,32}$"
+                    />
                 </label>
                 <label>
-                    <input id="logs" required type="password" placeholder="Password"/>
+                    <input id="logs" name="pass"  required type="password" placeholder="Password"/>
                 </label>
                 <label>
-                    <input id="logs" required type="password" placeholder="Confirm Password"/>
+                    <input id="logs"  required type="password" placeholder="Confirm Password"/>
                 </label>
                 <label >
-                    <input required type="checkbox">
+                    <input required name="check" type="checkbox">
                     I accept the 
                     <a class="terms" href="">Terms of Use</a>
                     &
