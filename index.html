@@ -10,32 +10,35 @@
     <body>
         <section class="reg_form">
             <form class="form" action="/">
+
                 <h2 class="title">Register</h2>
 
-                <span class="text"
-                    >Create your account. It`s free and only takes a
-                    minute.</span
-                >
+                <span class="text">Create your account. It`s free and only takes a
+                    minute.</span>
 
                 <label>
-                    <input type="text" placeholder="First Name"/>
+                    <input id="name" required type="text" placeholder="First Name"/>
                 </label>
                 <label>
-                    <input type="text" placeholder="Last Name"/>
+                    <input id="name" required type="text" placeholder="Last Name"/>
                 </label>
                 <label>
-                    <input type="email" placeholder="Email"/>
+                    <input id="logs" required type="email" placeholder="Email"/>
                 </label>
                 <label>
-                    <input type="password" placeholder="Password"/>
+                    <input id="logs" required type="password" placeholder="Password"/>
                 </label>
                 <label>
-                    <input type="password" placeholder="Confirm Password"/>
+                    <input id="logs" required type="password" placeholder="Confirm Password"/>
                 </label>
                 <label >
-                    <input type="checkbox">I accept the <a href="">Terms of Use</a>&<a href="">Privacy Policy</a>
+                    <input required type="checkbox">
+                    I accept the 
+                    <a class="terms" href="">Terms of Use</a>
+                    &
+                    <a class="terms" href="">Privacy Policy</a>
                 </label>
-                <button>Register Now</button>
+                <button class="btn">Register Now</button>
 
             </form>
         </section>

@@ -10,6 +10,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    flex-wrap: wrap;
     
     width: 100vw;
     height: 100vh;
@@ -17,7 +19,7 @@ body {
 
 .reg_form {
     width: 450px;
-    height: 600px;
+    height: 500px;
 
     background: #F2F3F7;
     color: #888785;
@@ -51,3 +53,50 @@ body {
     font-weight: 500;
 }
 
+#name, #logs {
+    margin: 10px 0 15px;
+    border:1px solid #888785;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+#name {
+    margin: 20px 0 15px;
+    width: 48%;
+}
+
+#logs {
+    width: 100%;
+}
+
+
+
+.terms {
+    font-size: 13px;
+    text-decoration: none;
+    color: #4FA750;
+}
+.terms:hover {
+    color: #2e6d2f;
+    text-decoration: underline;
+}
+
+
+.btn {
+    display: inline-block;
+    width: 90%;
+    height: 50px;
+    margin-top: 40px;
+
+    border:1px solid #888785;
+    border-radius: 10px;
+
+    background-color: #4FA750;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #2e6d2f;
+}
