@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.reg_form {
+    width: 400px;
+    height: 600px;
+
+    background: #F2F3F7;
+    color: #888785;
+
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.form {
+    margin: 25px;
+}
+
+.title::before,
+.title::after {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    height: 3px;
+    background: #888785;
+}
