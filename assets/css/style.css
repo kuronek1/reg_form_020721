@@ -16,7 +16,7 @@ body {
 }
 
 .reg_form {
-    width: 400px;
+    width: 450px;
     height: 600px;
 
     background: #F2F3F7;
@@ -35,8 +35,19 @@ body {
 .title::after {
     content: ' ';
     display: inline-block;
+
     vertical-align: middle;
     width: 30%;
     height: 3px;
+
     background: #888785;
+
+    margin: 20px 0;
 }
+
+.text {
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
